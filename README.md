@@ -8,3 +8,6 @@
 
 # Overview
 ![image](https://github.com/taemin-steve/taemin-steve/assets/75752289/e56c6c72-288b-4a8c-bd05-b5c2f3f2a632)
+
+# Condition 1 : 목부터 발끝까지 이미지 안에 나오는가?
+MediaPipe를 활용하여 
