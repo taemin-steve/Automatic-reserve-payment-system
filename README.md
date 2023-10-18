@@ -12,4 +12,4 @@
 # Condition 1 : 목부터 발끝까지 이미지 안에 나오는가?
 MediaPipe를 활용하여 각각의 필수적인 관절이 사진 안에 포함되어 있는지 확인  
 MediaPipe를 돌려 Joint 라고 판별한 pixel 좌표와, 해당 좌표의 precision을 Feature로 하여 2개의 Hidden Layer를 가지는 MLP 구성하여 정확도 0.94 달성
-![image](https://github.com/taemin-steve/taemin-steve/assets/75752289/18363298-047f-4fed-a608-376bb3f42756)
+![image](https://github.com/taemin-steve/taemin-steve/assets/75752289/b77bc19d-dd67-431b-ac25-41b0069e9a22)
