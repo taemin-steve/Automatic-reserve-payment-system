@@ -21,3 +21,14 @@ MediaPipe를 돌려 Joint 라고 판별한 pixel 좌표와, 해당 좌표의 pre
 ![image](https://github.com/taemin-steve/taemin-steve/assets/75752289/b77bc19d-dd67-431b-ac25-41b0069e9a22)
 <br>
 <br>
+
+# Preporcessing 
+두 번째 조건을 확인하기에 앞서, 체크하고자 하는것은 '옷'에 대한 것이므로, 옷을 제외한 나머지 픽셀을 제거.
+Meta의 Segment Anything 모델에 앞서 Mediapipe로 얻은 joint 정보를 제공하여 원하는 옷 부위만을 남기고 나머지 픽셀 제거 
+
+![image](https://github.com/taemin-steve/Automatic-reserve-payment-system/assets/75752289/27bb9882-0a97-4a2e-b95d-b41c98defdc4)
+<br>
+<br>
+
+# Condition 2 : 포토 리뷰안에 들어 있는 제품이 구매한 제품과 동일 제품인가?
+전처리한 이미지를 input으로 실제 제품과, 리뷰이미지에 존재하는 제품간의 유사도를 Siamese Network를 활용하여 계산, 정확도 0.72 달성 
