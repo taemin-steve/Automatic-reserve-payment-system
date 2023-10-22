@@ -32,5 +32,7 @@ Meta의 Segment Anything 모델에 앞서 Mediapipe로 얻은 joint 정보를 �
 
 # Condition 2 : 포토 리뷰안에 들어 있는 제품이 구매한 제품과 동일 제품인가?
 전처리한 이미지를 input으로 실제 제품과, 리뷰이미지에 존재하는 제품간의 유사도를 Siamese Network를 활용하여 계산, 정확도 0.72 달성 
+<br>
+<br>
 
 # 결과
